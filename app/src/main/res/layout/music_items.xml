@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="180dp"
+    android:padding="12dp"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:id="@+id/audio_item"
+    android:background="#111111">
+
+    <ImageView
+        android:layout_width="98dp"
+        android:layout_height="110dp"
+        android:foregroundGravity="center"
+        android:padding="5dp"
+        android:contentDescription="cover"
+        android:id="@+id/album_art"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="File Name"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:gravity="center_horizontal"
+        android:id="@+id/music_file_name"/>
+
+</LinearLayout>
